@@ -1,0 +1,275 @@
+// General
+body {
+	margin:0;
+}
+a{	
+	list-style-type: none;
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+	
+	li{
+		a{	
+			color:#ffffff;
+
+		 	i{
+		 		margin-right: 5px;
+		 	}
+
+		}
+	}
+}
+
+h4{					
+	font-size:14px;
+	font-weight: bold;
+	margin: 0 auto;
+
+}
+
+h5{					
+	font-size:12px;
+	margin: 0 auto;
+}
+
+.oficialRow{
+	border: 1px solid #d2d2d1;
+	width: 100%;
+}
+
+
+
+#input {
+  position: relative;
+
+  input {
+    &[type="text"] {
+      width: 500px;
+      border: none;
+      font-size: 16px;
+  
+    }
+
+    &[type="submit"] {
+      position: absolute;
+      background: transparent;
+      border-radius: 0;
+      border: none;
+      right: 0;
+    }
+  }
+}
+
+
+
+//Head Logo and Status
+
+.topbar{
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin: 0px auto;
+	padding-top: 20px;	
+	
+		#brand{
+			img{
+				 margin-left: 50px;
+			}
+		}
+
+		ul {
+			 margin-right: 40px;
+			li{
+				display: inline;
+				padding: 0 10px;
+
+				img {
+					 border-radius: 50%;
+					 max-width:50px;
+	 				}
+
+				a{
+
+					color: #4a4a4a;
+					font-size: 14px;
+					font-weight: bold;
+
+				}
+			}
+		}
+}
+
+//Container
+
+.columns{ 
+	display: flex;
+	justify-content: space-between;
+	max-width: 100vw;
+		
+		//1st column from the left {Navbar} 
+		.col-left {
+			background-color:#0095d9;
+			min-height: 100vw;	
+		    padding: 15px;
+		   
+				#sale-btn {
+					background-color:#ffffff;
+					border-radius: 80px;
+					padding: 8px 15px;
+					width: 160px;
+					margin: 0 20px 15px -5px;
+
+					a{
+					text-decoration: none;
+					text-align:center;
+					margin: 38px;
+					font-size:16px;
+						img{
+							margin-rigth: 4px;
+						}
+
+					 	i{
+					 		margin-right: 10px;
+
+					 	}
+
+				  	}
+				}		
+		} // end col-left
+
+
+		//Second column from the midle {Dynamic} 
+		.col-midle {
+			background-color:#e5e4e5;
+			min-height: 100vw;
+			padding: 10px;
+			.marginMidle{
+				margin: 5px auto;
+
+			}
+
+			.boxInputShare, .boxShare{
+				display: flex;
+				width: 700px;
+				border: 1px solid #d2d2d1;
+		    	background-color: #ffffff;
+				padding: 20px 20px;
+				margin-left: 24px;
+
+					img{
+						 border-radius: 50%;
+						 max-width:50px;
+						 margin-right: 20px;
+					}
+
+					i{
+					  color: #aaaaaa;
+					  margin: 4px 5px;
+					}
+
+					.boxShrfont{
+						font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+						margin-right:15px;
+					}
+				}		    
+		} //end col-midle
+
+		//third column from the right {Trenders}
+		.col-right {
+			background-color:#e5e4e5;
+			min-height: 100vw;
+		    padding: 15px;
+
+		    .boxStartSale{
+		    	
+		    	border: 1px solid #d2d2d1;
+		    	background-color: #ffffff;
+		    	height: 60px;
+				padding: 20px 35px 20px 15px;
+		    	display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+			    #starSale{
+			    	border-radius: 100%;
+			    	max-width: 50px;
+			    	height: 50px;
+			    	background-color: #f5a623;
+			    	margin-right: 6px;
+
+		    		i{
+		    			margin: 14px 15px;
+		    			font-size:20px;
+		    			color:#ffffff;
+		    		}
+			    }
+			   
+			   .startSaletxt{
+
+			   		max-width: 100%;
+			   		
+			   		h1{
+			   			font-size:20px;
+			   			margin: 0 auto;
+			   		}
+
+			   		h2{
+			   			font-size:12px;
+			   			margin: 0 auto;
+			   		}			    	
+			    }
+
+			}//boxtrender
+
+			.boxOficialTrender, .boxTopTrenders{
+				margin-top:15px;
+				border: 1px solid #d2d2d1;
+		    	background-color: #ffffff;
+	    	
+
+				h3{					
+		   			font-size:15px;
+		   			font-weight: bold;
+		   			margin-top: 15px;
+		   			padding: 0px 20px;
+				}
+
+				
+
+				.oficialsLogo, .trendersLogo{
+					border-radius: 50%;
+				 	max-width:50px;
+				 	margin-right: 10px;
+
+				}
+
+				.oficialTrenderFlex, .BoxFlex {
+					display: flex;
+					align-items: center;
+					justify-content:space-between;
+					margin-top:15px;
+					padding: 0px 20px 0px 10px;
+				}
+
+
+				.seeAll{
+					margin: 15px 15px;
+		   			padding: 0px 20px;
+
+				}
+
+			} //boxOficialTrender
+
+			.sgrBtn{
+				    border: 1px solid #0095d9;
+   					border-radius: 20px;
+					padding: 4px 18px;
+			}
+				
+		} //col-right		
+		
+} //columns at all

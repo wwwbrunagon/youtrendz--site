@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li a {
+  color: #ffffff;
+}
+ul li a i {
+  margin-right: 5px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+h5 {
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.oficialRow {
+  border: 1px solid #d2d2d1;
+  width: 100%;
+}
+
+#input {
+  position: relative;
+}
+#input input[type=text] {
+  width: 500px;
+  border: none;
+  font-size: 16px;
+}
+#input input[type=submit] {
+  position: absolute;
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  right: 0;
+}
+
+.topbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+.topbar #brand img {
+  margin-left: 50px;
+}
+.topbar ul {
+  margin-right: 40px;
+}
+.topbar ul li {
+  display: inline;
+  padding: 0 10px;
+}
+.topbar ul li img {
+  border-radius: 50%;
+  max-width: 50px;
+}
+.topbar ul li a {
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100vw;
+}
+.columns .col-left {
+  background-color: #0095d9;
+  min-height: 100vw;
+  padding: 15px;
+}
+.columns .col-left #sale-btn {
+  background-color: #ffffff;
+  border-radius: 80px;
+  padding: 8px 15px;
+  width: 160px;
+  margin: 0 20px 15px -5px;
+}
+.columns .col-left #sale-btn a {
+  text-decoration: none;
+  text-align: center;
+  margin: 38px;
+  font-size: 16px;
+}
+.columns .col-left #sale-btn a img {
+  margin-rigth: 4px;
+}
+.columns .col-left #sale-btn a i {
+  margin-right: 10px;
+}
+.columns .col-midle {
+  background-color: #e5e4e5;
+  min-height: 100vw;
+  padding: 10px;
+}
+.columns .col-midle .marginMidle {
+  margin: 5px auto;
+}
+.columns .col-midle .boxInputShare, .columns .col-midle .boxShare {
+  display: flex;
+  width: 700px;
+  border: 1px solid #d2d2d1;
+  background-color: #ffffff;
+  padding: 20px 20px;
+  margin-left: 24px;
+}
+.columns .col-midle .boxInputShare img, .columns .col-midle .boxShare img {
+  border-radius: 50%;
+  max-width: 50px;
+  margin-right: 20px;
+}
+.columns .col-midle .boxInputShare i, .columns .col-midle .boxShare i {
+  color: #aaaaaa;
+  margin: 4px 5px;
+}
+.columns .col-midle .boxInputShare .boxShrfont, .columns .col-midle .boxShare .boxShrfont {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  margin-right: 15px;
+}
+.columns .col-right {
+  background-color: #e5e4e5;
+  min-height: 100vw;
+  padding: 15px;
+}
+.columns .col-right .boxStartSale {
+  border: 1px solid #d2d2d1;
+  background-color: #ffffff;
+  height: 60px;
+  padding: 20px 35px 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.columns .col-right .boxStartSale #starSale {
+  border-radius: 100%;
+  max-width: 50px;
+  height: 50px;
+  background-color: #f5a623;
+  margin-right: 6px;
+}
+.columns .col-right .boxStartSale #starSale i {
+  margin: 14px 15px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.columns .col-right .boxStartSale .startSaletxt {
+  max-width: 100%;
+}
+.columns .col-right .boxStartSale .startSaletxt h1 {
+  font-size: 20px;
+  margin: 0 auto;
+}
+.columns .col-right .boxStartSale .startSaletxt h2 {
+  font-size: 12px;
+  margin: 0 auto;
+}
+.columns .col-right .boxOficialTrender, .columns .col-right .boxTopTrenders {
+  margin-top: 15px;
+  border: 1px solid #d2d2d1;
+  background-color: #ffffff;
+}
+.columns .col-right .boxOficialTrender h3, .columns .col-right .boxTopTrenders h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 0px 20px;
+}
+.columns .col-right .boxOficialTrender .oficialsLogo, .columns .col-right .boxOficialTrender .trendersLogo, .columns .col-right .boxTopTrenders .oficialsLogo, .columns .col-right .boxTopTrenders .trendersLogo {
+  border-radius: 50%;
+  max-width: 50px;
+  margin-right: 10px;
+}
+.columns .col-right .boxOficialTrender .oficialTrenderFlex, .columns .col-right .boxOficialTrender .BoxFlex, .columns .col-right .boxTopTrenders .oficialTrenderFlex, .columns .col-right .boxTopTrenders .BoxFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 0px 20px 0px 10px;
+}
+.columns .col-right .boxOficialTrender .seeAll, .columns .col-right .boxTopTrenders .seeAll {
+  margin: 15px 15px;
+  padding: 0px 20px;
+}
+.columns .col-right .sgrBtn {
+  border: 1px solid #0095d9;
+  border-radius: 20px;
+  padding: 4px 18px;
+}
